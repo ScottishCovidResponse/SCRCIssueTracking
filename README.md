@@ -4,7 +4,7 @@ Issue tracking for all models in the Scottish Covid Response Consortium.
 
 The reason that this is a standalone repo for issues is that some projects are forks, which don't allow their own issues, and that some issues are cut across multiple projects and need some level of interoperability.
 
-Please be aware that this means you must take care when referencing issues by number in commit messages - trying to may inadvertantly reference an issue in the original repository that the repo in this org was forked from. To correctly refer to  issue from within a commit message it have the full path, e.g. `ScottishCovidResponse/SCRCIssueTracking#123`, but only in the description (not the first line of the commit) i.e.
+Please be aware that this means you must take care when referencing issues by number in commit messages - trying to may inadvertantly reference an issue in the original repository that the repo in this org was forked from. To correctly refer to an issue from within a commit message it must have the full path, e.g. `ScottishCovidResponse/SCRCIssueTracking#123`, but only in the description (not the first line of the commit) i.e.
 
 - `git commit -m "pithy description" -m "ScottishCovidResponse/SCRCIssueTracking#123 and more details"` to refer to issue number 123. 
 
