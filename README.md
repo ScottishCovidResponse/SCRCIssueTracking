@@ -10,7 +10,7 @@ The reason that there is a standalone repo for issues is that we anticipate that
 
 ### Referencing issues
 
-Please be aware that having an issue repository separate from the code repo means you must take care when referencing issues by number in commit messages and PRs - trying to may not resolve, or may inadvertantly reference an issue in the original repository that the repo in this org was forked from. To correctly refer to an issue from within a PR or a commit message it must have the correct path to the issue on the `ScottishCovidResponse/SCRCIssueTracking` repository. An autolink reference should have been created in each repository to make a shortcut: `ScottishCovidResponse/SCRCIssueTracking#123` -> `SCRC-123`. Please put the reference in the commit description (not the first line of the commit) i.e.:
+Please be aware that having an issue repository separate from the code repo means you must take care when referencing issues by number in commit messages and PRs - trying to reference an issue using just `#123` may not resolve, or may inadvertently reference an issue in the original repository that the repo in this org was forked from. To correctly refer to an issue from within a PR or a commit message it must have the correct path to the issue on the `ScottishCovidResponse/SCRCIssueTracking` repository. An autolink reference should have been created in each repository to make a shortcut: `ScottishCovidResponse/SCRCIssueTracking#123` -> `SCRC-123`. Please put the reference in the commit description (not the first line of the commit) i.e.:
 
 - `git commit -m "pithy description" -m "SCRC-123 and more details"` to refer to issue number 123.
 
@@ -34,9 +34,9 @@ We also have a series of [teams](https://github.com/orgs/ScottishCovidResponse/t
 
 ## Discussions and problems
 
-We have no doubt that we've made mistakes while setting all of this up! Apologies in advance - it was done in a rush. In particular, you may not be a member of the right teams, so you may not have write access to the right repos or projects, or autolinking may not be set up for a repo. You will have automatic access to [Zulip](https://zulip.scrc.uk) (a Slack-like service) through membership of the `ScottishCovidResponse` github organisation. Please use it to ask for help or if you find other glitches as we get all of this working smoothly. We also welcome suggestions for how to improve the ease of use for all of us!
+We have no doubt that we've made mistakes while setting all of this up! Apologies in advance - it was done in a rush. In particular, you may not be a member of the right teams, so you may not have write access to the right repos or projects, or autolinking may not be set up for a repo. You will have automatic access to our [Zulip](https://zulip.scrc.uk) workspace (a Slack-like service) through membership of the `ScottishCovidResponse` github organisation. Please use it to ask for help or if you find other glitches as we get all of this working smoothly. We also welcome suggestions for how to improve the ease of use for all of us!
 
-In any event, the lead RSE for each project should adopt and add to what is already set up as needed and we can confer via Zulip if we need to refine the system - each project should have its own stream on Zulip shortly. If yours doesn't, please ask on #general for it to be set up.
+In any event, the lead RSE for each project should adopt and add to what is already set up as needed and we can confer via Zulip if we need to refine the system - each project should have its own stream on Zulip shortly. If yours doesn't, please ask on `#general` for it to be set up.
 
 ### Problems
 
