@@ -21,3 +21,4 @@ jobs:
                model reconstruction=@kzscisoft @richardreeve
                Simple Network Sim=@magicicada @bobturneruk
                Simulation.jl=@claireh93 @richardreeve @jwscook
+               interoperability=@alysbrett @richardreeve
