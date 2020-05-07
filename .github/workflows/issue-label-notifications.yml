@@ -19,5 +19,5 @@ jobs:
                Covid19_EERAModel=@EERAModel
                Data management=@SCRC-data
                model reconstruction=@Model-reconstruction
-               Simple Network Sim=@Simple Network Sim
+               Simple Network Sim=@Simple-Network-Sim
                Simulation.jl=@Simulation.jl-devs @Simulation.jl-admins
