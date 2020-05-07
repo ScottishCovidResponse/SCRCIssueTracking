@@ -12,4 +12,12 @@ jobs:
           with:
              token: ${{ secrets.GITHUB_TOKEN }}
              recipients: |
-                  CoronaBICI=@ianhinder
+               Admin & management=@SCRC-admin
+               Contact-Tracing-Model=@FMD-Model
+               CoronaBICI=@CoronaBICI
+               Covid_Simulation_Model=@NDCode
+               Covid19_EERAModel=@EERAModel
+               Data management=@SCRC-data
+               model reconstruction=@Model-reconstruction
+               Simple Network Sim=@Simple Network Sim
+               Simulation.jl=@Simulation.jl-devs @Simulation.jl-admins
