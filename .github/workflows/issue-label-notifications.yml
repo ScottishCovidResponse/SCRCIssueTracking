@@ -12,12 +12,12 @@ jobs:
           with:
              token: ${{ secrets.GITHUB_TOKEN }}
              recipients: |
-               Admin & management=@ScottishCovidResponse/SCRC-admin
-               Contact-Tracing-Model=@ScottishCovidResponse/FMD-Model
-               CoronaBICI=@ScottishCovidResponse/CoronaBICI
-               Covid_Simulation_Model=@ScottishCovidResponse/NDCode
-               Covid19_EERAModel=@ScottishCovidResponse/EERAModel
-               Data management=@ScottishCovidResponse/SCRC-data
-               model reconstruction=@ScottishCovidResponse/Model-reconstruction
-               Simple Network Sim=@ScottishCovidResponse/Simple-Network-Sim
-               Simulation.jl=@ScottishCovidResponse/simulation-jl-admins @ScottishCovidResponse/simulation-jl-devs @richardreeve
+               Admin & management=@alysbrett @richardreeve
+               Contact-Tracing-Model=@sibylleM @johnnonweiler @sam-brett
+               CoronaBICI=@chrispooley @ianhinder
+               Covid_Simulation_Model=@paulbessell @johnnonweiler @bobtaylor12
+               Covid19_EERAModel=@thibaud-porphyre @peter-t-fox
+               Data management=@IainM-BioSS
+               model reconstruction=@kzscisoft @richardreeve
+               Simple Network Sim=@magicicada @bobturneruk
+               Simulation.jl=@claireh93 @richardreeve @jwscook
