@@ -20,4 +20,4 @@ jobs:
                Data management=@ScottishCovidResponse/SCRC-data
                model reconstruction=@ScottishCovidResponse/Model-reconstruction
                Simple Network Sim=@ScottishCovidResponse/Simple-Network-Sim
-               Simulation.jl=@ScottishCovidResponse/Simulation-jl-devs @ScottishCovidResponse/Simulation-jl-admins
+               Simulation.jl=@ScottishCovidResponse/simulation-jl-admins @ScottishCovidResponse/simulation-jl-devs
