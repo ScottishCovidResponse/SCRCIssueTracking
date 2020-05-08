@@ -13,9 +13,9 @@ jobs:
              token: ${{ secrets.GITHUB_TOKEN }}
              recipients: |
                Admin & management=@alysbrett @richardreeve
-               Contact-Tracing-Model=@sibylleM @johnnonweiler @sam-brett
+               Contact-Tracing-Model=@sibylleM @johnnonweiler @sam-brett @vinopm
                CoronaBICI=@chrispooley @ianhinder
-               Covid_Simulation_Model=@paulbessell @johnnonweiler @bobtaylor12
+               Covid_Simulation_Model=@paulbessell @johnnonweiler @bobtaylor12 @vinopm
                Covid19_EERAModel=@thibaud-porphyre @peter-t-fox
                Data management=@IainM-BioSS
                model reconstruction=@kzscisoft @richardreeve
