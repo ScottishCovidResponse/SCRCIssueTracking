@@ -17,7 +17,7 @@ jobs:
                CoronaBICI=@chrispooley @ianhinder
                Covid_Simulation_Model=@paulbessell @johnnonweiler @bobtaylor12 @vinopm
                Covid19_EERAModel=@thibaud-porphyre @peter-t-fox
-               Data management=@IainM-BioSS
+               Data management=@IainM-BioSS @aaron-reeves
                model reconstruction=@kzscisoft @richardreeve
                Simple Network Sim=@magicicada @bobturneruk
                Simulation.jl=@claireh93 @richardreeve @jwscook
