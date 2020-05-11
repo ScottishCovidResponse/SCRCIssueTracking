@@ -19,6 +19,6 @@ jobs:
                Covid19_EERAModel=@thibaud-porphyre @peter-t-fox
                Data management=@IainM-BioSS @aaron-reeves
                model reconstruction=@kzscisoft @richardreeve
-               Simple Network Sim=@magicicada @bobturneruk
+               Simple Network Sim=@magicicada @bobturneruk @aflag
                Simulation.jl=@claireh93 @richardreeve @jwscook
                interoperability=@alysbrett @richardreeve
