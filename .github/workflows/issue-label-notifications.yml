@@ -20,5 +20,5 @@ jobs:
                Data management=@IainM-BioSS @aaron-reeves
                model reconstruction=@kzscisoft @richardreeve
                Simple Network Sim=@magicicada @bobturneruk @aflag
-               Simulation.jl=@claireh93 @richardreeve @jwscook
+               Simulation.jl=@claireh93 @richardreeve @jwscook @sdl1 @wytbella
                interoperability=@alysbrett @richardreeve
