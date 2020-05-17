@@ -10,7 +10,7 @@ The reason that there is a standalone repo for issues is that we anticipate that
 
 ### Referencing issues
 
-Please be aware that having an issue repository separate from the code repo means you must take care when referencing issues by number in commit messages and PRs - trying to reference an issue using just `#123` may not resolve, or may inadvertently reference an issue in the original repository that the repo in this org was forked from. To correctly refer to an issue from within a PR or a commit message it must have the correct path to the issue on the `ScottishCovidResponse/SCRCIssueTracking` repository. An autolink reference should have been created in each repository to make a shortcut: `ScottishCovidResponse/SCRCIssueTracking#123` -> `SCRC-123`. Please put the reference in the commit description (not the first line of the commit) i.e.:
+Please be aware that having an issue repository separate from the code repo means you must take care when referencing issues by number in commit messages and PRs - trying to reference an issue using just `#123` may not resolve, or may inadvertently reference an issue in the original repository that the repo in this org was forked from. To correctly refer to an issue from within a PR or a commit message it must have the correct path to the issue on the `SCRCIssueTracking` repository - e.g. `ScottishCovidResponse/SCRCIssueTracking#123`. So long as you are not referencing an issue in a PR to say you'll close it (in which case you need to use this long syntax), an autolink reference should have been created in each repository to make a shortcut: `ScottishCovidResponse/SCRCIssueTracking#123` -> `SCRC-123`, so put the reference in the commit description (not the first line of the commit) i.e.:
 
 - `git commit -m "pithy description" -m "SCRC-123 and more details"` to refer to issue number 123.
 
@@ -22,6 +22,14 @@ Please be aware that having an issue repository separate from the code repo mean
 $ git commit -m "first line
 >
 > second line SCRC-123"
+```
+
+or
+
+```bash
+$ git commit -m "first line
+>
+> Closes ScottishCovidResponse/SCRCIssueTracking#123"
 ```
 
 ### Labels and Projects
