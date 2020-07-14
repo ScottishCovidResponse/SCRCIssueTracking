@@ -14,8 +14,7 @@ jobs:
              recipients: |
                Admin & management=@alysbrett @richardreeve
                Contact-Tracing-Model=@sibylleM @johnnonweiler @sam-brett @vinopm
-               CoronaBICI=@chrispooley @ianhinder
-               CoronaPMCMC=@chrispooley @ianhinder
+               BEEPmbp=@chrispooley @ianhinder @rwj11
                Covid_Simulation_Model=@paulbessell @johnnonweiler
                Covid19_EERAModel=@thibaud-porphyre @peter-t-fox
                Data management=@IainM-BioSS @aaron-reeves
